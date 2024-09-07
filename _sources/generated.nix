@@ -49,6 +49,20 @@
     };
     date = "2019-11-25";
   };
+  kernelsu-gki-stable = {
+    pname = "kernelsu-gki-stable";
+    version = "bd9fcc5417dc223150708a7bb102182598b800c4";
+    src = fetchgit {
+      url = "https://github.com/tiann/KernelSU.git";
+      rev = "bd9fcc5417dc223150708a7bb102182598b800c4";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-mE96xV7wUu7yOnakla8EY3r52AUxUBcObrleQN1Uk4g=";
+    };
+    date = "2024-09-07";
+  };
   kernelsu-stable = {
     pname = "kernelsu-stable";
     version = "v0.9.5";
@@ -81,6 +95,18 @@
       sha256 = "sha256-viqlQBPd2SuiAphFKiwjtckC3gDTGkbLv2dgZKMP3Oc=";
     };
     date = "2023-10-09";
+  };
+  linux-moto-pstar-lineageos-21 = {
+    pname = "linux-moto-pstar-lineageos-21";
+    version = "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5";
+    src = fetchFromGitHub {
+      owner = "moto-sm8250";
+      repo = "android_kernel_motorola_sm8250";
+      rev = "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5";
+      fetchSubmodules = false;
+      sha256 = "sha256-OUDYzBMDwoKtZtLIjoo2Qd+jX2OcroCIaR56wwKC8Ak=";
+    };
+    date = "2024-03-11";
   };
   linux-moto-rtwo-lineageos-21 = {
     pname = "linux-moto-rtwo-lineageos-21";

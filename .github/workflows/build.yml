@@ -16,6 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         build_target:
+          - moto-pstar-lineageos-21
           - amazon-fire-hd-karnak
           - moto-rtwo-lineageos-21
           - oneplus-8t-blu-spark

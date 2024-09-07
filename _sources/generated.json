@@ -83,6 +83,26 @@
         },
         "version": "3ecb542702c2ca0e502533c3f6d02f0f06f584f1"
     },
+    "kernelsu-gki-stable": {
+        "cargoLocks": null,
+        "date": "2024-09-07",
+        "extract": null,
+        "name": "kernelsu-gki-stable",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "bd9fcc5417dc223150708a7bb102182598b800c4",
+            "sha256": "sha256-mE96xV7wUu7yOnakla8EY3r52AUxUBcObrleQN1Uk4g=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/tiann/KernelSU.git"
+        },
+        "version": "bd9fcc5417dc223150708a7bb102182598b800c4"
+    },
     "kernelsu-stable": {
         "cargoLocks": null,
         "date": null,
@@ -138,6 +158,27 @@
             "type": "github"
         },
         "version": "e22c713c7c4f0c8d08267f6bba98b8c4cde8310f"
+    },
+    "linux-moto-pstar-lineageos-21": {
+        "cargoLocks": null,
+        "date": "2024-03-11",
+        "extract": null,
+        "name": "linux-moto-pstar-lineageos-21",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "moto-sm8250",
+            "repo": "android_kernel_motorola_sm8250",
+            "rev": "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5",
+            "sha256": "sha256-OUDYzBMDwoKtZtLIjoo2Qd+jX2OcroCIaR56wwKC8Ak=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5"
     },
     "linux-moto-rtwo-lineageos-21": {
         "cargoLocks": null,

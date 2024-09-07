@@ -30,6 +30,20 @@ in
     kernelSrc = sources.linux-moto-rtwo-lineageos-21.src;
   };
 
+  # still require some patches
+  moto-pstar-lineageos-21 = pipeline {
+    anyKernelVariant = "kernelsu";
+    clangVersion = "12";
+    kernelDefconfigs = [
+      "vendor/kona-perf_defconfig"
+      "vendor/ext_config/moto-kona.config"
+      "vendor/ext_config/pstar-default.config"
+      "vendor/debugfs.config"
+    ];
+    kernelImageName = "Image";
+    kernelSrc = sources.linux-moto-pstar-lineageos-21.src;
+  };
+
   oneplus-8t-blu-spark = pipeline {
     anyKernelVariant = "osm0sis";
     clangVersion = "latest";
