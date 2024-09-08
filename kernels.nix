@@ -36,9 +36,9 @@ in
     clangVersion = "12";
     kernelDefconfigs = [
       "vendor/kona-perf_defconfig"
-      "vendor/ext_config/moto-kona.config"
-      "vendor/ext_config/pstar-default.config"
       "vendor/debugfs.config"
+      "vendor/ext_config/pstar-default.config"
+      "vendor/ext_config/moto-kona.config"
     ];
     kernelImageName = "Image";
     kernelSrc = sources.linux-moto-pstar-lineageos-21.src;
