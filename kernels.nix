@@ -1,4 +1,9 @@
-{ callPackage, sources, ... }:
+{
+  callPackage,
+  sources,
+  fetchpatch2,
+  ...
+}:
 let
   pipeline = callPackage ./pipeline { };
 in
@@ -33,12 +38,19 @@ in
   # still require some patches
   moto-pstar-lineageos-21 = pipeline {
     anyKernelVariant = "kernelsu";
-    clangVersion = "12";
+    clangVersion = "latest";
+    kernelPatches = builtins.map fetchpatch2 [
+        {
+          url = "https://raw.githubusercontent.com/AndroidAppsUsedByMyself/kernel_patches/main/patches/4.19.157/0001-merge-defconfig-for-pstar.patch";
+          hash = "sha256-BkuyXnSaNJrc5s7a5WDbyJTdVBek9fZt0OUZ/EEyF/o=";
+        }
+        {
+          url = "https://raw.githubusercontent.com/AndroidAppsUsedByMyself/kernel_patches/main/patches/4.19.157/0001-update-dtc-to-v1.6.1.patch";
+          hash = "sha256-gjeOEidz/vaAJojUSrtTP3Wca/UtP7XYjmsHCyhgdEU=";
+        }
+      ];
     kernelDefconfigs = [
-      "vendor/kona-perf_defconfig"
-      "vendor/debugfs.config"
-      "vendor/ext_config/pstar-default.config"
-      "vendor/ext_config/moto-kona.config"
+      "vendor/lineageos_pstar_defconfig"
     ];
     kernelImageName = "Image";
     kernelSrc = sources.linux-moto-pstar-lineageos-21.src;
