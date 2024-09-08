@@ -41,9 +41,9 @@ src.branch = "lineage-21"
 fetch.github = "moto-sm8550/android_kernel_motorola_sm8550"
 
 [linux-moto-pstar-lineageos-21]
-src.git = "https://github.com/moto-sm8250/android_kernel_motorola_sm8250.git"
-src.branch = "lineage-21-MMI-T1RAS33.55-15-10-6"
-fetch.github = "moto-sm8250/android_kernel_motorola_sm8250"
+src.git = "https://github.com/LineageOS/android_kernel_motorola_sm8250.git"
+src.branch = "lineage-21"
+fetch.github = "LineageOS/android_kernel_motorola_sm8250"
 
 [linux-oneplus-8t-blu-spark]
 src.git = "https://github.com/engstk/op8.git"
