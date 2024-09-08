@@ -161,7 +161,7 @@
     },
     "linux-moto-pstar-lineageos-21": {
         "cargoLocks": null,
-        "date": "2024-03-11",
+        "date": "2024-09-06",
         "extract": null,
         "name": "linux-moto-pstar-lineageos-21",
         "passthru": null,
@@ -171,14 +171,14 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "moto-sm8250",
+            "owner": "LineageOS",
             "repo": "android_kernel_motorola_sm8250",
-            "rev": "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5",
-            "sha256": "sha256-OUDYzBMDwoKtZtLIjoo2Qd+jX2OcroCIaR56wwKC8Ak=",
+            "rev": "bea41e502f15bb8823d9b1a977fbae1a45fedd9a",
+            "sha256": "sha256-IKETJT3Acpbl7ihlYhvPJ4lzh1MqWCMKrVKe/iEAn9E=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5"
+        "version": "bea41e502f15bb8823d9b1a977fbae1a45fedd9a"
     },
     "linux-moto-rtwo-lineageos-21": {
         "cargoLocks": null,

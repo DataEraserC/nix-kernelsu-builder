@@ -98,15 +98,15 @@
   };
   linux-moto-pstar-lineageos-21 = {
     pname = "linux-moto-pstar-lineageos-21";
-    version = "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5";
+    version = "bea41e502f15bb8823d9b1a977fbae1a45fedd9a";
     src = fetchFromGitHub {
-      owner = "moto-sm8250";
+      owner = "LineageOS";
       repo = "android_kernel_motorola_sm8250";
-      rev = "ebfa546a5777c19dd3dd9e0b55dc269d15c110c5";
+      rev = "bea41e502f15bb8823d9b1a977fbae1a45fedd9a";
       fetchSubmodules = false;
-      sha256 = "sha256-OUDYzBMDwoKtZtLIjoo2Qd+jX2OcroCIaR56wwKC8Ak=";
+      sha256 = "sha256-IKETJT3Acpbl7ihlYhvPJ4lzh1MqWCMKrVKe/iEAn9E=";
     };
-    date = "2024-03-11";
+    date = "2024-09-06";
   };
   linux-moto-rtwo-lineageos-21 = {
     pname = "linux-moto-rtwo-lineageos-21";
