@@ -51,17 +51,17 @@
   };
   kernelsu-gki-stable = {
     pname = "kernelsu-gki-stable";
-    version = "ac20b76eaf812dd8b71c76a04878f8a4778292aa";
+    version = "f65aaff4e39445b504f980db509bbbc680c327d0";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "ac20b76eaf812dd8b71c76a04878f8a4778292aa";
+      rev = "f65aaff4e39445b504f980db509bbbc680c327d0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-WcMC0YzfVRyg3Df8YFgdgc7xdjV7COEg0mVuzflU+vA=";
+      sha256 = "sha256-7mDEpq4a3M6EfcT/vcMLJ7l3Bm+hg2scVwAb1Ok6QfI=";
     };
-    date = "2024-09-14";
+    date = "2024-09-29";
   };
   kernelsu-stable = {
     pname = "kernelsu-stable";
