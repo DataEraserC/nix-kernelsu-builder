@@ -85,7 +85,7 @@
     },
     "kernelsu-gki-stable": {
         "cargoLocks": null,
-        "date": "2024-10-01",
+        "date": "2024-10-06",
         "extract": null,
         "name": "kernelsu-gki-stable",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "60fcd27b849d6b8968c6beeda3354eb84da7a0e8",
-            "sha256": "sha256-yW4+FPJnY2ocNVAh8Y/BL5XT7otYdENKayr4AldKMfM=",
+            "rev": "2da7022a1e480dce1279e91c9eb85ddd733b9f1f",
+            "sha256": "sha256-GHpTBZP/mF1RWu1nYv/DWaUIvgS/4wNVLYFx+jn3Yqk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "60fcd27b849d6b8968c6beeda3354eb84da7a0e8"
+        "version": "2da7022a1e480dce1279e91c9eb85ddd733b9f1f"
     },
     "kernelsu-stable": {
         "cargoLocks": null,
