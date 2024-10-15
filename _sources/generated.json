@@ -22,7 +22,7 @@
     },
     "anykernel-osm0sis": {
         "cargoLocks": null,
-        "date": "2024-10-12",
+        "date": "2024-10-14",
         "extract": null,
         "name": "anykernel-osm0sis",
         "passthru": null,
@@ -34,12 +34,12 @@
             "name": null,
             "owner": "osm0sis",
             "repo": "AnyKernel3",
-            "rev": "075e6ff32b0e39d385ee273232bf879c3d9787b5",
-            "sha256": "sha256-XxxScwA4gXnDGAMTNToPakgRwkq5DuJ9Y26snWgPKJA=",
+            "rev": "fdf4603a407048740191a478229b294a714949f8",
+            "sha256": "sha256-8fBGZj5xXI08k38aivVebpLyWM4q3ghOr+ZhxmVm+R0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "075e6ff32b0e39d385ee273232bf879c3d9787b5"
+        "version": "fdf4603a407048740191a478229b294a714949f8"
     },
     "gcc-aarch64-linux-android": {
         "cargoLocks": null,
@@ -85,7 +85,7 @@
     },
     "kernelsu-gki-stable": {
         "cargoLocks": null,
-        "date": "2024-10-06",
+        "date": "2024-10-15",
         "extract": null,
         "name": "kernelsu-gki-stable",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2da7022a1e480dce1279e91c9eb85ddd733b9f1f",
-            "sha256": "sha256-GHpTBZP/mF1RWu1nYv/DWaUIvgS/4wNVLYFx+jn3Yqk=",
+            "rev": "2f9210b2e79338e7e7b1eb91878cada2b9a37ed6",
+            "sha256": "sha256-0paB3mn/V4mUitcLRliG3WtSr9wTogUDRsi+nWJYQk8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "2da7022a1e480dce1279e91c9eb85ddd733b9f1f"
+        "version": "2f9210b2e79338e7e7b1eb91878cada2b9a37ed6"
     },
     "kernelsu-stable": {
         "cargoLocks": null,
